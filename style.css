@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    ui-sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI Variable Display",
+    "Segoe UI",
+    Helvetica,
+    "Apple Color Emoji",
+    "Noto Sans Arabic",
+    "Noto Sans Hebrew",
+    Arial,
+    sans-serif,
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    122deg,
+    rgba(75, 6, 52, 1) 0%,
+    rgba(10, 2, 23, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  color: #efd1df;
+  position: absolute;
+  top: 4%;
+  left: 19%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.parent {
+  height: 82%;
+  width: 72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.parent .boxes {
+  height: 289px;
+  width: 212px;
+  background-color: #474060;
+  border-radius: 40px;
+  position: relative;
+}
+.topImage {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topImage img {
+  height: 167px;
+  width: 181px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.topImage .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topImage h5 {
+  color: white;
+  font-weight: 500;
+}
+.topImage h6 {
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.ri-poker-hearts-line {
+  color: grey;
+  font-size: 15px;
+}
+button {
+  color: white;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 3px solid #7f4dbe;
+  position: absolute;
+  bottom: -33%;
+  left: 6%;
+  padding: 7px 45px;
+  font-size: 15px;
+}
